@@ -93,7 +93,9 @@ function updateTooltip(chosenXAxis, circlesGroup) {
 }
 
 d3.csv("assets/data/data.csv", function (err, data) {
-    if (err) throw err;
+    if (err) return console.warn(err);
+
+    console.log(data)
 
     data.forEach(function (data) {
         data.healthcare = +data.healthcare;
@@ -165,6 +167,8 @@ d3.csv("assets/data/data.csv", function (err, data) {
             if (value !== chosenXAxis) {
 
                 chosenXAxis = value;
+
+                console.log(chosenXAxis)
 
 
                 xLinearScale = xScale(data, chosenXAxis);
