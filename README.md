@@ -1,5 +1,8 @@
 ##  Data Journalism and D3
 
+![d3 image](Images/d3_image.jpg)
+
+
 
 This graph is based on ACS 1-year estimates:   https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml 
 my graph is using # health care vs income and poverty taken from the data.csv data set
