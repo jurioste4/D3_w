@@ -1,8 +1,12 @@
-##  Homework 16 
+##  Data Journalism and D3
 
-I have completed level 1 was working on level 2 
 
-js/app.js   has main code completeting the homework
-js/test.js     this has an atempt at level 2 still working on it getting error 
+ this graph is based on ACS 1-year estimates: https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml
+ my graph is useing health care vs age the main code is done in js/app.js I pulled the data in useng d3.csv from the file data.csv useing a function 
+
+I used vs code , html some CSS javaScript /d3 
+
+
+
 
 
