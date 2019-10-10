@@ -150,6 +150,7 @@ d3.csv("./assets/data/data.csv").then(function (chartdata) {
         .attr("dy", "1em")
         .classed("axis-text", true)
         .text("heathcare");
+    var circlesGroup = updateToolTip(chosenXAxis, circlesGroup);
 
     labelsGroup.selectAll("text")
         .on("click", function () {
